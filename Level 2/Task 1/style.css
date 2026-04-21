@@ -1,0 +1,37 @@
+
+.custom-navbar {
+  background-color: #7d2e69;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.custom-navbar .navbar-menu {
+  display: flex !important;
+}
+
+ .navbar-item:hover {
+  background-color: #64254f !important;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-content {
+  text-align: center;
+}
+
+.button {
+  margin-top: 10px;
+}
